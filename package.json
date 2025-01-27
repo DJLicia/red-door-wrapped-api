@@ -1,0 +1,23 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "Final Project on Red Door menu e-commerce store for CS132",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJLicia/red-door-wrapped-api.git"
+  },
+  "author": "Alicia Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJLicia/red-door-wrapped-api/issues"
+  },
+  "homepage": "https://github.com/DJLicia/red-door-wrapped-api#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "globby": "^14.0.2"
+  }
+}
