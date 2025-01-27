@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Door - Merchandise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="utils.js"></script>
+    <script defer src="products.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <h1>Red Door Merchandise</h1>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="feedback.html" class="nav-link">Give Feedback</a>
+            <a href="faq.html" class="nav-link">FAQs</a>
+        </nav>
+        <div class="filter-controls">
+            <select id="category-filter" class="filter-input">
+                <option value="shirt">Shirts</option>
+                <option value="hat">Hats</option>
+            </select>
+            <select id="subject-filter" class="filter-input">
+                <option value="">All Subjects</option>
+                <option value="drink">Drinks</option>
+                <option value="food">Food</option>
+            </select>
+            <input 
+                type="number" 
+                id="popularity-filter" 
+                class="filter-input" 
+                placeholder="Min Popularity"
+            >
+        </div>
+    </header>
+
+    <section class="content">
+        <h2>Our Merchandise</h2>
+        <div id="error-message" class="error-message hidden"></div>
+        <div id="products-grid">
+            <!-- populate products dynamically here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>Red Door Cafe by Caltech &copy; 2024 | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

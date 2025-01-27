@@ -1,0 +1,158 @@
+/* CS132 
+Alicia Zhang
+
+General aesthetic styles for the entire site of Red Door Rundown, making sure
+everything stays in dark mode with general red theme. 
+
+*/
+
+
+body {
+    background-color: #1a1a1a;
+    color: #f7eaea;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #8B0000;
+    color: rgb(249, 239, 239);
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    border-bottom: 1px solid #333;
+}
+
+.nav-link {
+    color: #ff4d4d;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+.nav-link:hover {
+    background-color: #ff4d4d;
+    color: #111;
+}
+
+.navbar h1 {
+    color: #ff4d4d;
+    text-shadow: 0 0 10px #ff4d4d;
+}
+
+.navbar input {
+    background-color: #222;
+    border: none;
+    padding: 10px;
+    color: #f5f5f5;
+    border-radius: 25px;
+    width: 250px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.navbar input:focus {
+    box-shadow: 0 0 15px #ff4d4d;
+}
+
+.content {
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 24pt;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ff4d4d;
+}
+
+.curved-title {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+.curved-title text {
+    fill: #ffdbdb;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff4d4d;
+}
+
+#orders-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.order-card {
+    background-color: #484646;
+    padding: 15px;
+    height: auto;
+    min-width: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 30, 30, 0.5);
+}
+
+.order-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffdcdc;
+}
+
+.order-card h3 {
+    color: #f25454;
+    font-size: 18pt;
+    font-family:'Calibri', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 10px #ff4d4d;
+    margin-bottom: 10px;
+}
+
+.order-card p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+footer {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #111;
+    border-top: 1px solid #333;
+    color: #904242;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.filter-input {
+    background-color: #222;
+    border: none;
+    padding: 10px;
+    color: #f5f5f5;
+    border-radius: 25px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.filter-input:focus {
+    box-shadow: 0 0 15px #ff4d4d;
+}

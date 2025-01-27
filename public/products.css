@@ -1,0 +1,118 @@
+/* CS132 
+Alicia Zhang
+
+Specific layout and styling for the Merch page to show products
+
+*/
+
+.product-details {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-info h2 {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+.sizes {
+    margin: 20px 0;
+}
+
+.size-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.size-option {
+    padding: 8px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.size-option:hover {
+    background-color: #ff4d4d;
+    color: rgb(232, 217, 217);
+}
+
+.size-option.selected {
+    background-color: #ff4d4d;
+    color: rgb(255, 155, 55);
+}
+
+.add-to-cart {
+    background-color: #ff4d4d;
+    color: rgb(178, 166, 166);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+}
+
+.add-to-cart:hover {
+    background-color: #ff3333;
+}
+
+.reviews-section {
+    margin-top: 30px;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.review-card {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.review-rating {
+    color: #ff4d4d;
+}
+
+.review-date {
+    color: #666;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Door - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="feedback.css">
+    <script src="utils.js"></script>
+    <script defer src="contact.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <h1>Red Door Merch</h1>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="products.html" class="nav-link">Merch!</a>
+            <a href="faq.html" class="nav-link">FAQs</a>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Contact Us</h2>
+        <div id="form-message" class="hidden"></div>
+        
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name <span class="required">*</span></label>
+                <input type="text" id="name" name="name" required 
+                       pattern="[A-Za-z\s]{2,}" 
+                       title="Please enter at least 2 letters">
+                <span class="error-hint">Name must be at least 2 characters long</span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-hint">Please enter a valid email address</span>
+            </div>
+
+            <div class="form-group">
+                <label for="order-number">Order Number</label>
+                <input type="text" id="order-number" name="order-number" 
+                       pattern="RD-\d{4}-\d{3}"
+                       title="Format: RD-YYYY-XXX">
+                <span class="error-hint">Optional: Format RD-YYYY-XXX</span>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" required 
+                         minlength="10"></textarea>
+                <span class="error-hint">Message must be at least 10 characters</span>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Red Door Cafe by Caltech &copy; 2024 | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

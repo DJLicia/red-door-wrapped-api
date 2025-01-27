@@ -1,0 +1,39 @@
+/* CS132 
+Alicia Zhang
+
+Specific styles for the FAQ page. 
+
+*/
+
+#faqs {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(252, 221, 221);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(19, 18, 18, 0.1);
+}
+
+#faq-list {
+    margin-top: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd8d8;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item h3 {
+    margin: 0;
+    color: #8B0000;
+}
+
+.faq-item p {
+    margin: 10px 0 0;
+    color: #555;
+}
