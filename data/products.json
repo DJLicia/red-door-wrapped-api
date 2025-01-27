@@ -1,0 +1,235 @@
+{
+    "categories": {
+      "drink": [
+        {
+          "id": "matcha-latte",
+          "name": "Matcha Latte",
+          "category": "shirt",
+          "subject": "drink",
+          "price": 24.99,
+          "popularity": 95,
+          "image": "/images/matcha-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": [
+            {
+              "user": "tea_enthusiast",
+              "rating": 5,
+              "comment": "Perfect design for matcha lovers!",
+              "date": "2024-01-15"
+            }
+          ]
+        },
+        {
+          "id": "brain-freeze",
+          "name": "Brain Freeze",
+          "category": "hat",
+          "subject": "drink",
+          "price": 19.99,
+          "popularity": 88,
+          "image": "/images/brain-freeze-hat.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "cold-brew",
+          "name": "Cold Brew Coffee",
+          "category": "shirt",
+          "subject": "drink",
+          "price": 22.99,
+          "popularity": 90,
+          "image": "/images/cold-brew-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large", "XL"],
+          "reviews": []
+        },
+        {
+          "id": "london-fog",
+          "name": "London Fog",
+          "category": "shirt",
+          "subject": "drink",
+          "price": 21.99,
+          "popularity": 75,
+          "image": "/images/london-fog-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "mocha",
+          "name": "Mocha",
+          "category": "hat",
+          "subject": "drink",
+          "price": 18.99,
+          "popularity": 85,
+          "image": "/images/mocha-hat.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "arnold-palmer",
+          "name": "Arnold Palmer",
+          "category": "shirt",
+          "subject": "drink",
+          "price": 23.99,
+          "popularity": 82,
+          "image": "/images/arnold-palmer-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "lemonade",
+          "name": "Lemonade",
+          "category": "hat",
+          "subject": "drink",
+          "price": 17.99,
+          "popularity": 78,
+          "image": "/images/lemonade-hat.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "chai-latte",
+          "name": "Chai Tea Latte",
+          "category": "shirt",
+          "subject": "drink",
+          "price": 22.99,
+          "popularity": 87,
+          "image": "/images/chai-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        }
+      ],
+      "food": [
+        {
+          "id": "tba-sandwich",
+          "name": "Turkey Bacon Avocado",
+          "category": "shirt",
+          "subject": "food",
+          "price": 24.99,
+          "popularity": 92,
+          "image": "/images/tba-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large", "XL"],
+          "reviews": []
+        },
+        {
+          "id": "avocado-toast",
+          "name": "RDM Avocado Toast",
+          "category": "shirt",
+          "subject": "food",
+          "price": 23.99,
+          "popularity": 89,
+          "image": "/images/avocado-toast-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "shakshuka",
+          "name": "Shakshuka",
+          "category": "hat",
+          "subject": "food",
+          "price": 19.99,
+          "popularity": 76,
+          "image": "/images/shakshuka-hat.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "blueberry-waffles",
+          "name": "Blueberry Waffles",
+          "category": "shirt",
+          "subject": "food",
+          "price": 22.99,
+          "popularity": 85,
+          "image": "/images/waffles-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "hummus-sandwich",
+          "name": "Hummus Sandwich",
+          "category": "hat",
+          "subject": "food",
+          "price": 18.99,
+          "popularity": 79,
+          "image": "/images/hummus-hat.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "marketplace-salad",
+          "name": "Marketplace Grain Salad",
+          "category": "shirt",
+          "subject": "food",
+          "price": 21.99,
+          "popularity": 72,
+          "image": "/images/marketplace-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "sweet-potato",
+          "name": "Sweet Potato Salad",
+          "category": "shirt",
+          "subject": "food",
+          "price": 21.99,
+          "popularity": 70,
+          "image": "/images/sweet-potato-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "caprese",
+          "name": "Caprese Sandwich",
+          "category": "hat",
+          "subject": "food",
+          "price": 19.99,
+          "popularity": 83,
+          "image": "/images/caprese-hat.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "grilled-cheese",
+          "name": "Grilled Cheese",
+          "category": "shirt",
+          "subject": "food",
+          "price": 20.99,
+          "popularity": 86,
+          "image": "/images/grilled-cheese-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "pulled-pork",
+          "name": "Sweet Chili Pulled Pork",
+          "category": "hat",
+          "subject": "food",
+          "price": 19.99,
+          "popularity": 81,
+          "image": "/images/pulled-pork-hat.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "ranch-salad",
+          "name": "Ranch Salad",
+          "category": "shirt",
+          "subject": "food",
+          "price": 21.99,
+          "popularity": 74,
+          "image": "/images/ranch-salad-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        },
+        {
+          "id": "portobello",
+          "name": "Grilled Portobello",
+          "category": "shirt",
+          "subject": "food",
+          "price": 22.99,
+          "popularity": 77,
+          "image": "/images/portobello-shirt.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "reviews": []
+        }
+      ]
+    }
+  }
